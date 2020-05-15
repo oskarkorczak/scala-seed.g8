@@ -11,3 +11,6 @@ sbt new oskarkorczak/scala-seed.g8
 [g8]: http://www.foundweekends.org/giter8/
 [sbt]: https://www.scala-sbt.org/
 [scala]: https://www.scala-lang.org/
+
+## Template testing
+Run `clean; reload; test` from sbt shell. 
