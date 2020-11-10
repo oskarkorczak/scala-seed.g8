@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.12.11"
+ThisBuild / scalaVersion := "2.12.12"
 ThisBuild / autoStartServer := false
 
 addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.5.0")
