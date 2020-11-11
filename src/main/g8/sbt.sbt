@@ -2,6 +2,11 @@ import Util._
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
+Global / excludeLintKeys ++= Set(
+  autoStartServer,
+  turbo
+)
+
 Test / parallelExecution := false
 Test / testOptions += Tests.Argument(TestFrameworks.ScalaTest, "-oSD")
 Test / turbo := true
