@@ -2,6 +2,7 @@
 bin/
 target/
 build/
+.bsp/
 
 # intellij idea
 *.log
